@@ -1,5 +1,10 @@
 @import "bootstrap";
 
+body {
+  background: image_url('subtle_white_feathers.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .navbar {
   font-family: monaco, Consolas, "Lucida Console", monospace;
   font-weight: 200;
@@ -41,4 +46,10 @@
 
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
