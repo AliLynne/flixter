@@ -21,7 +21,6 @@ body {
   background: image_url('hero.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   height: 750px;
   box-shadow: 0px 3px 8px #2a2a2a;
@@ -52,4 +51,19 @@ body {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+ -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+ box-shadow: 1px 1px 2px 0 #d0d0d0;
+ background: #fff;
+ border: 1px solid #ccc;
+ border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+ margin-top: 10px;
+ padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
 }
