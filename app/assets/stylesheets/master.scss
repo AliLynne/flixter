@@ -9,5 +9,36 @@
 
 .navbar-inverse a.navbar-brand {
   font-family: monaco, Consolas, "Lucida Console", monospace;
-  font-size: 1.5em;
+  font-size: 1.2em;
+}
+
+.hero {
+  background: image_url('hero.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.frosty {
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
 }
