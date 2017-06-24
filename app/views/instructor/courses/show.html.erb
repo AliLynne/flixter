@@ -6,6 +6,7 @@
   <br class="clr" />
   <div class="text-center">
     <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
+     <%= link_to 'Destroy', course_path(current_course), method: :delete, data: {confirm: 'Are you sure you want to delete this?'},class: 'btn btn-danger' %>
   </div>
 
   <ul>

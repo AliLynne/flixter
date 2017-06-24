@@ -6,4 +6,10 @@ class CoursesController < ApplicationController
   def show
     @course = Course.find(params[:id])
   end
+
+  def destroy
+    @course = Course.find(params[:id])
+    @course.destroy
+    redirect_to root_path
+  end
 end
