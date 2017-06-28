@@ -5,6 +5,10 @@ body {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+.navbar ul li a {
+  padding: 0;
+}
+
 .navbar {
   font-family: monaco, Consolas, "Lucida Console", monospace;
   font-weight: 200;
