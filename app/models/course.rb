@@ -1,7 +1,6 @@
 class Course < ApplicationRecord
   mount_uploader :image, ImageUploader
 
-
   belongs_to :user
   has_many :sections
   has_many :enrollments
@@ -17,5 +16,5 @@ class Course < ApplicationRecord
   def premium?
     ! free?
   end
-  
+
 end
