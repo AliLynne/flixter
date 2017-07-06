@@ -1,8 +1,13 @@
 @import "bootstrap";
 
+
 body {
   background: image_url('subtle_white_feathers.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .navbar ul li a {
@@ -75,6 +80,42 @@ body {
   margin: 10px;
 }
 
+.section-li {
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: 100;
+  margin: 20px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: 100;
+  padding: 8px;
+  font-size: .938em;
+}
+
+.lessons li b {
+  font-size: 1.563em;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+ul .header {
+  font-size: 1.56em;
+}
+
+ul .header .fa {
+  font-size: .9em;
+}
+
 .help-block {
   color: #ff3333;
   background-color: #ffeeee;
@@ -97,12 +138,12 @@ body {
   color: white;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
-  font-size: 15px;
+  font-size: .938em;
 }
 
 .lesson a b {
   font-weight: 100;
-  font-size: 25px;
+  font-size: 1.563em;
 }
 
 .section {
