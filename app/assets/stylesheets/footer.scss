@@ -21,9 +21,18 @@ body {
   font-family: monaco, Consolas, "Lucida Console", monospace;
   padding: 10px 0px;
   margin-top: 30px;
+  font-size: .75em;
 }
 
 #footer a {
   color: white;
   font-weight: 100;
+}
+
+.social-button {
+  margin: 4px;
+}
+
+.social a:hover {
+  text-decoration: none;
 }
